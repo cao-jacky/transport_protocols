@@ -14,12 +14,12 @@ def client_tcp():
     success = 1
   
     while success:
-  
+
         # vidObj object calls read
         # function extract frames
-        success, image = vidObj.read()
+        success, image = input_video.read()
   
-        print(len(image))
+        print(count, len(image))
         # Saves the frames with frame-count
         # cv2.imwrite("frame%d.jpg" % count, image)
   
