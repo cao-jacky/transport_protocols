@@ -1,7 +1,7 @@
 import socket
 
 def client_tcp():
-    host = socket.gethostname()  # as both code is running on same pc
+    host = "10.38.151.146"  # as both code is running on same pc
     port = 5000  # socket server port number
 
     client_socket = socket.socket()  # instantiate
