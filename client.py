@@ -7,7 +7,7 @@ def client_tcp():
     client_socket = socket.socket()  # instantiate
     client_socket.connect((host, port))  # connect to the server
 
-    message = test  # take input
+    message = "test"  # take input
 
     while message.lower().strip() != 'bye':
         client_socket.send(message.encode())  # send message
