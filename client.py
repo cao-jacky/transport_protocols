@@ -5,8 +5,8 @@ def client_tcp():
     host = "10.38.151.146"
     port = 5000 
 
-    # client_socket = socket.socket()
-    # client_socket.connect((host, port)) 
+    client_socket = socket.socket()
+    client_socket.connect((host, port)) 
 
     input_video = cv2.VideoCapture("input_videos/4k_60fps.webm")
 
@@ -19,6 +19,8 @@ def client_tcp():
         # function extract frames
         success, image = input_video.read()
   
+        client_socket.send(image.encode())  # send message
+
         print(count, len(image))
         # Saves the frames with frame-count
         # cv2.imwrite("frame%d.jpg" % count, image)
