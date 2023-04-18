@@ -2,23 +2,40 @@ import socket
 import cv2
 
 def client_tcp():
-    host = "10.38.151.146"  # as both code is running on same pc
-    port = 5000  # socket server port number
+    host = "10.38.151.146"
+    port = 5000 
 
-    client_socket = socket.socket()  # instantiate
-    client_socket.connect((host, port))  # connect to the server
+    # client_socket = socket.socket()
+    # client_socket.connect((host, port)) 
 
-    message = "test"  # take input
+    input_video = cv2.VideoCapture("input_videos/4k_60fps.webm")
 
-    while message.lower().strip() != 'bye':
-        client_socket.send(message.encode())  # send message
-        data = client_socket.recv(1024).decode()  # receive response
+    count = 0
+    success = 1
+  
+    while success:
+  
+        # vidObj object calls read
+        # function extract frames
+        success, image = vidObj.read()
+  
+        print(len(image))
+        # Saves the frames with frame-count
+        # cv2.imwrite("frame%d.jpg" % count, image)
+  
+        count += 1
 
-        print('Received from server: ' + data)  # show in terminal
+    # message = "test"  # take input
+
+    # while message.lower().strip() != 'bye':
+    #     client_socket.send(message.encode())  # send message
+    #     data = client_socket.recv(1024).decode()  # receive response
+
+    #     print('Received from server: ' + data)  # show in terminal
 
         # message = input(" -> ")  # again take input
 
-    client_socket.close()  # close the connection
+    # client_socket.close()  # close the connection
 
 
 if __name__ == '__main__':
