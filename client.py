@@ -1,6 +1,7 @@
 import socket
 import cv2
 import pickle
+import struct
 
 def client_tcp():
     host = "10.38.151.146"
