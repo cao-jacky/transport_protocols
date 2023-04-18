@@ -19,7 +19,7 @@ def client_tcp():
         # function extract frames
         success, image = input_video.read()
   
-        client_socket.send(image.encode())  # send message
+        client_socket.send(image)  # send message
 
         print(count, len(image))
         # Saves the frames with frame-count
