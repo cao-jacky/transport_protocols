@@ -1,4 +1,5 @@
 import socket
+import cv2
 
 def client_tcp():
     host = "10.38.151.146"  # as both code is running on same pc

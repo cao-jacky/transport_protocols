@@ -1,5 +1,7 @@
 import socket
 
+from ultralytics import YOLO
+
 def server_tcp():
     # get the hostname
     host = "10.38.151.146"
