@@ -1,5 +1,6 @@
 import socket
 import cv2
+import pickle
 
 def client_tcp():
     host = "10.38.151.146"
@@ -18,10 +19,13 @@ def client_tcp():
         # vidObj object calls read
         # function extract frames
         success, image = input_video.read()
+        data = pickle.dumps(image)
   
-        client_socket.send(image)  # send message
+        message_size = struct.pack("L", len(data))
 
-        print(count, len(image))
+        client_socket.send(message_size + data)  # send message
+
+        print(count, len(data))
         # Saves the frames with frame-count
         # cv2.imwrite("frame%d.jpg" % count, image)
   
