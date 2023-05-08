@@ -30,7 +30,7 @@ def client_tcp():
         pickle_len = len(data)
         print(f'Pickled Frame {count} which has length {pickle_len} B')
 
-        total_packets = int(np.ceil(pickle_len / 4096))
+        total_packets = int(np.ceil(pickle_len / 8192))
         print(f'Total number of packets to transmit is {total_packets}')
 
         message_size = struct.pack("L", pickle_len)
