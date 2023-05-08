@@ -1,6 +1,6 @@
 import socket
 import cv2
-import pickle
+import pickle5 as pickle
 import struct
 
 def client_tcp():
@@ -23,8 +23,9 @@ def client_tcp():
         print("Loading frame")
         success, image = input_video.read()
         print("Pickling frame")
-        data = pickle.dumps(image)
-  
+        data = pickle.dump(image, protocol=5)
+        print("Pickled frame")
+
         message_size = struct.pack("L", len(data))
 
         client_socket.send(message_size + data)  # send message
