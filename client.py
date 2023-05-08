@@ -11,27 +11,27 @@ def client_tcp():
     client_socket.connect((host, port)) 
 
     print("Loading video")
-    input_video = cv2.VideoCapture("input_videos/4k_60fps.webm")
-    print("Loaded video")
+    # input_video = cv2.VideoCapture("input_videos/4k_60fps.webm")
+    # print("Loaded video")
 
-    count = 0
-    success = 1
+    # count = 0
+    # success = 1
   
-    while success:
-        # vidObj object calls read
-        # function extract frames
-        success, image = input_video.read()
-        data = pickle.dumps(image)
+    # while success:
+    #     # vidObj object calls read
+    #     # function extract frames
+    #     success, image = input_video.read()
+    #     data = pickle.dumps(image)
   
-        message_size = struct.pack("L", len(data))
+    #     message_size = struct.pack("L", len(data))
 
-        client_socket.send(message_size + data)  # send message
+    #     client_socket.send(message_size + data)  # send message
 
-        print(count, len(data))
-        # Saves the frames with frame-count
-        # cv2.imwrite("frame%d.jpg" % count, image)
+    #     print(count, len(data))
+    #     # Saves the frames with frame-count
+    #     # cv2.imwrite("frame%d.jpg" % count, image)
   
-        count += 1
+    #     count += 1
 
     # message = "test"  # take input
 
