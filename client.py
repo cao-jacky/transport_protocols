@@ -35,7 +35,7 @@ def client_tcp():
 
         message_size = struct.pack("L", pickle_len)
 
-        client_socket.sendall(message_size + data)  # send message
+        client_socket.send(message_size + data)  # send message
 
         print(count, pickle_len)
         # Saves the frames with frame-count
