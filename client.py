@@ -31,7 +31,7 @@ def client_tcp():
         load_start = int(time.time_ns()/1000)
         success, image = input_video.read()
         load_end = int(time.time_ns()/1000)
-        results_file.write(f'Frame {count} loaded in {load_end-load_start} ms')
+        results_file.write(f'Frame {count} loaded in {load_end-load_start} ms\n')
 
         print(f'Pickling Frame {count}')
         pickle_start = int(time.time_ns()/1000)
@@ -40,24 +40,24 @@ def client_tcp():
 
         pickle_len = len(data)
         print(f'Pickled Frame {count} which has length {pickle_len} B')
-        results_file.write(f'Pickled Frame {count} which has length {pickle_len} B')
-        results_file.write(f'Frame {count} pickled in {pickle_end-pickle_start} ms')
+        results_file.write(f'Pickled Frame {count} which has length {pickle_len} B\n')
+        results_file.write(f'Frame {count} pickled in {pickle_end-pickle_start} ms\n')
 
         total_packets = int(np.ceil(pickle_len / 16384))
         print(f'Total number of packets to transmit is {total_packets}')
-        results_file.write(f'Total number of packets to transmit is {total_packets}')
+        results_file.write(f'Total number of packets to transmit is {total_packets}\n')
 
         message_size = struct.pack("L", pickle_len)
 
         send_start = int(time.time_ns()/1000)
         client_socket.send(message_size + data)  # send message
         send_end = int(time.time_ns()/1000)
-        results_file.write(f'Frame {count} sent in {send_end-send_start} ms')
+        results_file.write(f'Frame {count} sent in {send_end-send_start} ms\n')
 
         recv = client_socket.recv(1024).decode()  # receive response
         response_start = int(time.time_ns()/1000)
 
-        results_file.write(f'Frame {count} response received in {response_start-send_end} ms')
+        results_file.write(f'Frame {count} response received in {response_start-send_end} ms\n')
 
         print(count, pickle_len)
         # Saves the frames with frame-count
