@@ -20,7 +20,9 @@ def client_tcp():
     while success:
         # vidObj object calls read
         # function extract frames
+        print("Loading frame")
         success, image = input_video.read()
+        print("Pickling frame")
         data = pickle.dumps(image)
   
         message_size = struct.pack("L", len(data))
