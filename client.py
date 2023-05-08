@@ -10,6 +10,7 @@ def client_tcp():
     client_socket = socket.socket()
     client_socket.connect((host, port)) 
 
+    print("Loading video")
     input_video = cv2.VideoCapture("input_videos/4k_60fps.webm")
 
     count = 0
