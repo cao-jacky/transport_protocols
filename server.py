@@ -11,34 +11,39 @@ def server_tcp():
     host = "10.38.151.146"
     port = 5000  # initiate port no above 1024
 
-    server_socket = socket.socket()  # get instance
-    # look closely. The bind() function takes tuple as argument
-    server_socket.bind((host, port))  # bind host address and port together
+    # server_socket = socket.socket()  # get instance
+    # # look closely. The bind() function takes tuple as argument
+    # server_socket.bind((host, port))  # bind host address and port together
 
     model = YOLO('yolov8n.pt')  # load a pretrained YOLOv8n detection model
 
-    data = b''
-    payload_size = struct.calcsize("L") 
+    model("tcp://10.38.151.146:2000\?listen")
 
-    while True:
-        # Retrieve message size
-        while len(data) < payload_size:
-            data += conn.recv(4096)
+    # data = b''
+    # payload_size = struct.calcsize("L") 
 
-        packed_msg_size = data[:payload_size]
-        data = data[payload_size:]
-        msg_size = struct.unpack("L", packed_msg_size)[0] ### CHANGED
+    # server_socket.listen(2)
+    # conn, address = server_socket.accept()  # accept new connection
 
-        # Retrieve all data based on message size
-        while len(data) < msg_size:
-            data += conn.recv(4096)
+    # while True:
+    #     # Retrieve message size
+    #     while len(data) < payload_size:
+    #         data += conn.recv(4096)
 
-        frame_data = data[:msg_size]
-        data = data[msg_size:]
+    #     packed_msg_size = data[:payload_size]
+    #     data = data[payload_size:]
+    #     msg_size = struct.unpack("L", packed_msg_size)[0] ### CHANGED
 
-        # Extract frame
-        frame = pickle.loads(frame_data)
-        model(frame)  # predict on an image
+    #     # Retrieve all data based on message size
+    #     while len(data) < msg_size:
+    #         data += conn.recv(4096)
+
+    #     frame_data = data[:msg_size]
+    #     data = data[msg_size:]
+
+    #     # Extract frame
+    #     frame = pickle.loads(frame_data)
+    #     model(frame)  # predict on an image
 
     # # configure how many client the server can listen simultaneously
     # server_socket.listen(2)
