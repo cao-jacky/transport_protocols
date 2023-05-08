@@ -9,7 +9,7 @@ import time
 
 def client_tcp():
     client_results = input("Client results file name: ")
-    results_file = open(f'results/{client_results}.txt', "a")
+    results_file = open(f'results/{client_results}.txt', "w")
 
     host = "10.38.151.146"
     port = 5000 
