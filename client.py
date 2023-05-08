@@ -3,6 +3,8 @@ import cv2
 import pickle
 import struct
 
+import numpy as np
+
 def client_tcp():
     host = "10.38.151.146"
     port = 5000 
@@ -22,10 +24,14 @@ def client_tcp():
         # function extract frames
         print("Loading frame")
         success, image = input_video.read()
+
         print(f'Pickling Frame {count}')
         data = pickle.dumps(image, protocol=5)
         pickle_len = len(data)
         print(f'Pickled Frame {count} which has length {pickle_len} B')
+
+        total_packets = np.ceil(pickle_len / 4096)
+        print(f'Total number of packets to transmit is {total_packets}')
 
         message_size = struct.pack("L", pickle_len)
 
