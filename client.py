@@ -22,15 +22,16 @@ def client_tcp():
         # function extract frames
         print("Loading frame")
         success, image = input_video.read()
-        print("Pickling frame")
+        print(f'Pickling Frame {count}')
         data = pickle.dumps(image, protocol=5)
-        print("Pickled frame")
+        pickle_len = len(data)
+        print(f'Pickled Frame {count} which has length {pickle_len} B')
 
-        message_size = struct.pack("L", len(data))
+        message_size = struct.pack("L", pickle_len)
 
         client_socket.send(message_size + data)  # send message
 
-        print(count, len(data))
+        print(count, pickle_len)
         # Saves the frames with frame-count
         # cv2.imwrite("frame%d.jpg" % count, image)
   
