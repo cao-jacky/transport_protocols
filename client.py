@@ -30,12 +30,12 @@ def client_tcp():
         pickle_len = len(data)
         print(f'Pickled Frame {count} which has length {pickle_len} B')
 
-        total_packets = np.ceil(pickle_len / 4096)
+        total_packets = int(np.ceil(pickle_len / 4096))
         print(f'Total number of packets to transmit is {total_packets}')
 
         message_size = struct.pack("L", pickle_len)
 
-        client_socket.send(message_size + data)  # send message
+        client_socket.sendall(message_size + data)  # send message
 
         print(count, pickle_len)
         # Saves the frames with frame-count
