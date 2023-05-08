@@ -16,7 +16,6 @@ def client_tcp():
     success = 1
   
     while success:
-
         # vidObj object calls read
         # function extract frames
         success, image = input_video.read()
