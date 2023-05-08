@@ -12,6 +12,7 @@ def client_tcp():
 
     print("Loading video")
     input_video = cv2.VideoCapture("input_videos/4k_60fps.webm")
+    print("Loaded video")
 
     count = 0
     success = 1
