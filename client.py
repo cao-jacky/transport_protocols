@@ -20,9 +20,9 @@ resolutions_dict = {
     '144p': '144p_30fps.mp4'
 }
 
-def client_tcp(video_file):
-    client_results = input("Client results file name: ")
-    results_file = open(f'results/{client_results}.txt', "w")
+def client_tcp(video_file, results_file_name):
+    # client_results = input("Client results file name: ")
+    results_file = open(f'results/{results_file_name}.txt', "w")
 
     host = "10.38.151.146"
     port = 5000 
@@ -90,9 +90,9 @@ def client_tcp(video_file):
 
     # client_socket.close()  # close the connection
 
-def client_udp(video_file):
-    client_results = input("Client results file name: ")
-    results_file = open(f'results/{client_results}.txt', "w")
+def client_udp(video_file, results_file_name):
+    # client_results = input("Client results file name: ")
+    results_file = open(f'results/{results_file_name}.txt', "w")
 
     host = "10.38.151.146"
     port = 5001
@@ -140,6 +140,7 @@ def client_udp(video_file):
         bytes_count = 0
         curr_packet = 0
         while curr_packet < total_packets:
+            packet_start = int(time.time_ns()/1000)
             img_part = data[bytes_count:bytes_count+packet_size]
             
             curr_packet_bytes = curr_packet.to_bytes(4, 'little')
@@ -148,9 +149,9 @@ def client_udp(video_file):
             # data_to_send = bytearray(payload_size)
 
             data_to_send = curr_packet_bytes + total_pakcets_bytes + img_part
-            print(data_to_send)
-
-            # sock.sendto(img_part + seq_num)
+            sock.sendto(data_to_send)
+            packet_end = int(time.time_ns()/1000)
+            results_file.write(f'[{time.time_ns()/1000}] Frame {count} sent packet {curr_packet} of {total_packets} in {packet_end-packet_start} ms\n')
             
             bytes_count += packet_size
             curr_packet += 1
@@ -173,10 +174,11 @@ def client_udp(video_file):
 if __name__ == '__main__':
     protocol = sys.argv[1]
     selected_resolution = sys.argv[2]
+    results_file_name = sys.argv[3]
 
     video_file = resolutions_dict[selected_resolution]
 
     if protocol == "tcp":
-        client_tcp(video_file)
+        client_tcp(video_file, results_file_name)
     elif protocol == "udp":
-        client_udp(video_file)
+        client_udp(video_file, results_file_name)
