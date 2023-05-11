@@ -126,7 +126,7 @@ def client_udp(video_file):
         results_file.write(f'[{time.time_ns()/1000}] Frame {count} pickled in {pickle_end-pickle_start} ms\n')
 
         total_packets = int(np.ceil(pickle_len / packet_size))
-        total_pakcets_bytes = total_packets.to_bytes(4, 'big')
+        total_pakcets_bytes = total_packets.to_bytes(4, 'little')
 
         print(f'[{time.time_ns()/1000}] Total number of packets to transmit is {total_packets}')
         results_file.write(f'[{time.time_ns()/1000}] Total number of packets to transmit is {total_packets}\n')
@@ -142,9 +142,12 @@ def client_udp(video_file):
         while curr_packet < total_packets:
             img_part = data[bytes_count:bytes_count+packet_size]
             
-            curr_packet_bytes = curr_packet.to_bytes(4, 'big')
+            curr_packet_bytes = curr_packet.to_bytes(4, 'little')
 
-            data_to_send = curr_packet_bytes + total_pakcets_bytes
+            payload_size = packet_size + 16
+            # data_to_send = bytearray(payload_size)
+
+            data_to_send = curr_packet_bytes + total_pakcets_bytes + img_part
             print(data_to_send)
 
             # sock.sendto(img_part + seq_num)
@@ -162,22 +165,8 @@ def client_udp(video_file):
         results_file.write(f'[{time.time_ns()/1000}] Frame {count} response received in {response_start-send_end} ms\n')
 
         print(count, pickle_len)
-        # Saves the frames with frame-count
-        # cv2.imwrite("frame%d.jpg" % count, image)
   
         count += 1
-
-    # message = "test"  # take input
-
-    # while message.lower().strip() != 'bye':
-    #     client_socket.send(message.encode())  # send message
-    #     data = client_socket.recv(1024).decode()  # receive response
-
-    #     print('Received from server: ' + data)  # show in terminal
-
-        # message = input(" -> ")  # again take input
-
-    # client_socket.close()  # close the connection
 
 
 
