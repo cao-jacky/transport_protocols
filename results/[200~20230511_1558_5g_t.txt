@@ -1,0 +1,544 @@
+[1683809987158456.2] Frame 0 loaded in 65170 ms
+[1683809987162965.5] Pickled Frame 0 which has length 11059341 B
+[1683809987162967.8] Frame 0 pickled in 4384 ms
+[1683809987163012.8] Total number of packets to transmit is 10801
+[1683810002479228.0] Frame 0 sent in 15316142 ms
+[1683810025062562.2] Frame 0 response received in 22583327 ms
+[1683810025096800.2] Frame 1 loaded in 33478 ms
+[1683810025103055.0] Pickled Frame 1 which has length 11059341 B
+[1683810025103059.2] Frame 1 pickled in 6115 ms
+[1683810025103111.2] Total number of packets to transmit is 10801
+[1683810031087381.0] Frame 1 sent in 5984197 ms
+[1683810033283397.8] Frame 1 response received in 2196016 ms
+[1683810033330171.0] Frame 2 loaded in 46151 ms
+[1683810033338055.5] Pickled Frame 2 which has length 11059341 B
+[1683810033338063.0] Frame 2 pickled in 7681 ms
+[1683810033338142.2] Total number of packets to transmit is 10801
+[1683810039634212.8] Frame 2 sent in 6295991 ms
+[1683810041945089.5] Frame 2 response received in 2310883 ms
+[1683810042011208.8] Frame 3 loaded in 65580 ms
+[1683810042023834.0] Pickled Frame 3 which has length 11059341 B
+[1683810042023842.2] Frame 3 pickled in 12290 ms
+[1683810042023930.8] Total number of packets to transmit is 10801
+[1683810048687553.2] Frame 3 sent in 6663544 ms
+[1683810051467831.2] Frame 3 response received in 2780272 ms
+[1683810051499888.2] Frame 4 loaded in 31394 ms
+[1683810051508878.8] Pickled Frame 4 which has length 11059341 B
+[1683810051508892.2] Frame 4 pickled in 8749 ms
+[1683810051508970.2] Total number of packets to transmit is 10801
+[1683810056313695.0] Frame 4 sent in 4804612 ms
+[1683810058969073.5] Frame 4 response received in 2655318 ms
+[1683810059015153.0] Frame 5 loaded in 45555 ms
+[1683810059023671.5] Pickled Frame 5 which has length 11059341 B
+[1683810059023678.2] Frame 5 pickled in 8318 ms
+[1683810059023749.0] Total number of packets to transmit is 10801
+[1683810063547628.0] Frame 5 sent in 4523801 ms
+[1683810066758224.0] Frame 5 response received in 3210591 ms
+[1683810066818814.8] Frame 6 loaded in 59973 ms
+[1683810066834716.5] Pickled Frame 6 which has length 11059341 B
+[1683810066834723.5] Frame 6 pickled in 15586 ms
+[1683810066834792.8] Total number of packets to transmit is 10801
+[1683810070766859.5] Frame 6 sent in 3931996 ms
+[1683810074573877.8] Frame 6 response received in 3807013 ms
+[1683810074618332.2] Frame 7 loaded in 43916 ms
+[1683810074624614.2] Pickled Frame 7 which has length 11059341 B
+[1683810074624618.8] Frame 7 pickled in 6134 ms
+[1683810074624679.8] Total number of packets to transmit is 10801
+[1683810078567474.0] Frame 7 sent in 3942717 ms
+[1683810082217797.2] Frame 7 response received in 3650333 ms
+[1683810082270014.5] Frame 8 loaded in 51555 ms
+[1683810082278261.0] Pickled Frame 8 which has length 11059341 B
+[1683810082278266.0] Frame 8 pickled in 8059 ms
+[1683810082278322.2] Total number of packets to transmit is 10801
+[1683810087199412.5] Frame 8 sent in 4921015 ms
+[1683810090115697.0] Frame 8 response received in 2916275 ms
+[1683810090158094.2] Frame 9 loaded in 41853 ms
+[1683810090164892.5] Pickled Frame 9 which has length 11059341 B
+[1683810090164896.8] Frame 9 pickled in 6582 ms
+[1683810090164968.2] Total number of packets to transmit is 10801
+[1683810096389960.2] Frame 9 sent in 6224921 ms
+[1683810098864460.0] Frame 9 response received in 2474275 ms
+[1683810098904315.2] Frame 10 loaded in 39261 ms
+[1683810098912014.8] Pickled Frame 10 which has length 11059341 B
+[1683810098912021.2] Frame 10 pickled in 7518 ms
+[1683810098912087.8] Total number of packets to transmit is 10801
+[1683810105235535.0] Frame 10 sent in 6323369 ms
+[1683810108182919.8] Frame 10 response received in 2947385 ms
+[1683810108222572.5] Frame 11 loaded in 39062 ms
+[1683810108229426.5] Pickled Frame 11 which has length 11059341 B
+[1683810108229431.5] Frame 11 pickled in 6678 ms
+[1683810108229496.8] Total number of packets to transmit is 10801
+[1683810114383380.0] Frame 11 sent in 6153796 ms
+[1683810114383668.0] Frame 11 response received in 350 ms
+[1683810114433867.5] Frame 12 loaded in 49154 ms
+[1683810114440948.5] Pickled Frame 12 which has length 11059341 B
+[1683810114440954.8] Frame 12 pickled in 6907 ms
+[1683810114441100.0] Total number of packets to transmit is 10801
+[1683810122010922.8] Frame 12 sent in 7569748 ms
+[1683810122011156.8] Frame 12 response received in 283 ms
+[1683810122065059.2] Frame 13 loaded in 53507 ms
+[1683810122073826.5] Pickled Frame 13 which has length 11059341 B
+[1683810122073833.5] Frame 13 pickled in 8574 ms
+[1683810122073905.5] Total number of packets to transmit is 10801
+[1683810127264848.2] Frame 13 sent in 5190866 ms
+[1683810127265094.2] Frame 13 response received in 300 ms
+[1683810127288569.2] Frame 14 loaded in 23050 ms
+[1683810127294262.2] Pickled Frame 14 which has length 11059341 B
+[1683810127294266.8] Frame 14 pickled in 5547 ms
+[1683810127294316.2] Total number of packets to transmit is 10801
+[1683810133232353.0] Frame 14 sent in 5937993 ms
+[1683810133232496.2] Frame 14 response received in 174 ms
+[1683810133258367.0] Frame 15 loaded in 25623 ms
+[1683810133264453.0] Pickled Frame 15 which has length 11059341 B
+[1683810133264457.2] Frame 15 pickled in 5901 ms
+[1683810133264506.0] Total number of packets to transmit is 10801
+[1683810139870615.8] Frame 15 sent in 6606050 ms
+[1683810139870828.5] Frame 15 response received in 254 ms
+[1683810139912793.2] Frame 16 loaded in 41594 ms
+[1683810139921895.2] Pickled Frame 16 which has length 11059341 B
+[1683810139921902.2] Frame 16 pickled in 8845 ms
+[1683810139921985.5] Total number of packets to transmit is 10801
+[1683810145636023.2] Frame 16 sent in 5713959 ms
+[1683810145636464.5] Frame 16 response received in 472 ms
+[1683810145683303.8] Frame 17 loaded in 46016 ms
+[1683810145691455.2] Pickled Frame 17 which has length 11059341 B
+[1683810145691462.0] Frame 17 pickled in 7962 ms
+[1683810145691549.0] Total number of packets to transmit is 10801
+[1683810152093727.8] Frame 17 sent in 6402101 ms
+[1683810152093984.0] Frame 17 response received in 308 ms
+[1683810152152047.5] Frame 18 loaded in 57609 ms
+[1683810152165541.2] Pickled Frame 18 which has length 11059341 B
+[1683810152165550.2] Frame 18 pickled in 13123 ms
+[1683810152165656.0] Total number of packets to transmit is 10801
+[1683810158168636.0] Frame 18 sent in 6002906 ms
+[1683810158168867.5] Frame 18 response received in 281 ms
+[1683810158202060.2] Frame 19 loaded in 32799 ms
+[1683810158209571.2] Pickled Frame 19 which has length 11059341 B
+[1683810158209575.8] Frame 19 pickled in 7338 ms
+[1683810158209637.8] Total number of packets to transmit is 10801
+[1683810164756160.5] Frame 19 sent in 6546452 ms
+[1683810164756479.8] Frame 19 response received in 366 ms
+[1683810164796024.8] Frame 20 loaded in 39156 ms
+[1683810164803279.2] Pickled Frame 20 which has length 11059341 B
+[1683810164803284.5] Frame 20 pickled in 7092 ms
+[1683810164803352.5] Total number of packets to transmit is 10801
+[1683810170841577.0] Frame 20 sent in 6038167 ms
+[1683810170841769.5] Frame 20 response received in 229 ms
+[1683810170875355.5] Frame 21 loaded in 33260 ms
+[1683810170881749.2] Pickled Frame 21 which has length 11059341 B
+[1683810170881752.2] Frame 21 pickled in 6224 ms
+[1683810170881795.5] Total number of packets to transmit is 10801
+[1683810178187163.2] Frame 21 sent in 7305300 ms
+[1683810178187391.0] Frame 21 response received in 277 ms
+[1683810178232033.2] Frame 22 loaded in 44257 ms
+[1683810178239833.8] Pickled Frame 22 which has length 11059341 B
+[1683810178239839.0] Frame 22 pickled in 7623 ms
+[1683810178239900.2] Total number of packets to transmit is 10801
+[1683810183067366.5] Frame 22 sent in 4827391 ms
+[1683810183067605.0] Frame 22 response received in 292 ms
+[1683810183113786.5] Frame 23 loaded in 45770 ms
+[1683810183121861.2] Pickled Frame 23 which has length 11059341 B
+[1683810183121867.2] Frame 23 pickled in 7894 ms
+[1683810183121939.2] Total number of packets to transmit is 10801
+[1683810189485832.8] Frame 23 sent in 6363820 ms
+[1683810189486293.8] Frame 23 response received in 510 ms
+[1683810189534214.0] Frame 24 loaded in 47571 ms
+[1683810189539938.8] Pickled Frame 24 which has length 11059341 B
+[1683810189540014.8] Frame 24 pickled in 5575 ms
+[1683810189540072.0] Total number of packets to transmit is 10801
+[1683810195671263.2] Frame 24 sent in 6131126 ms
+[1683810195671481.0] Frame 24 response received in 262 ms
+[1683810195710862.0] Frame 25 loaded in 39039 ms
+[1683810195718345.5] Pickled Frame 25 which has length 11059341 B
+[1683810195718352.0] Frame 25 pickled in 7288 ms
+[1683810195718433.2] Total number of packets to transmit is 10801
+[1683810202521679.0] Frame 25 sent in 6803177 ms
+[1683810202521881.2] Frame 25 response received in 245 ms
+[1683810202556874.5] Frame 26 loaded in 34635 ms
+[1683810202563682.0] Pickled Frame 26 which has length 11059341 B
+[1683810202563686.8] Frame 26 pickled in 6633 ms
+[1683810202563746.2] Total number of packets to transmit is 10801
+[1683810208320508.5] Frame 26 sent in 5756709 ms
+[1683810208320652.5] Frame 26 response received in 181 ms
+[1683810208344457.5] Frame 27 loaded in 23565 ms
+[1683810208350112.5] Pickled Frame 27 which has length 11059341 B
+[1683810208350117.2] Frame 27 pickled in 5506 ms
+[1683810208350174.8] Total number of packets to transmit is 10801
+[1683810214627958.2] Frame 27 sent in 6277718 ms
+[1683810214628178.8] Frame 27 response received in 265 ms
+[1683810214664901.2] Frame 28 loaded in 36237 ms
+[1683810214671641.5] Pickled Frame 28 which has length 11059341 B
+[1683810214671647.2] Frame 28 pickled in 6574 ms
+[1683810214671712.0] Total number of packets to transmit is 10801
+[1683810220661585.2] Frame 28 sent in 5989802 ms
+[1683810220661807.2] Frame 28 response received in 271 ms
+[1683810220705490.5] Frame 29 loaded in 43263 ms
+[1683810220711525.2] Pickled Frame 29 which has length 11059341 B
+[1683810220711529.2] Frame 29 pickled in 5900 ms
+[1683810220711573.0] Total number of packets to transmit is 10801
+[1683810227262148.8] Frame 29 sent in 6550505 ms
+[1683810227262392.5] Frame 29 response received in 293 ms
+[1683810227305258.5] Frame 30 loaded in 42365 ms
+[1683810227314286.8] Pickled Frame 30 which has length 11059341 B
+[1683810227314293.8] Frame 30 pickled in 8823 ms
+[1683810227314365.2] Total number of packets to transmit is 10801
+[1683810233811899.2] Frame 30 sent in 6497466 ms
+[1683810233812386.0] Frame 30 response received in 375 ms
+[1683810233859398.2] Frame 31 loaded in 45898 ms
+[1683810233867292.0] Pickled Frame 31 which has length 11059341 B
+[1683810233867298.0] Frame 31 pickled in 7711 ms
+[1683810233867367.2] Total number of packets to transmit is 10801
+[1683810241706075.8] Frame 31 sent in 7838633 ms
+[1683810241706339.5] Frame 31 response received in 316 ms
+[1683810241753976.8] Frame 32 loaded in 47287 ms
+[1683810241764499.8] Pickled Frame 32 which has length 11059341 B
+[1683810241764506.5] Frame 32 pickled in 10330 ms
+[1683810241764579.2] Total number of packets to transmit is 10801
+[1683810247223357.5] Frame 32 sent in 5458709 ms
+[1683810247223586.0] Frame 32 response received in 275 ms
+[1683810247259696.2] Frame 33 loaded in 35751 ms
+[1683810247266794.5] Pickled Frame 33 which has length 11059341 B
+[1683810247266798.8] Frame 33 pickled in 6948 ms
+[1683810247266854.0] Total number of packets to transmit is 10801
+[1683810252516196.0] Frame 33 sent in 5249271 ms
+[1683810252516585.8] Frame 33 response received in 438 ms
+[1683810252556910.0] Frame 34 loaded in 39931 ms
+[1683810252562863.2] Pickled Frame 34 which has length 11059341 B
+[1683810252562866.5] Frame 34 pickled in 5815 ms
+[1683810252562908.5] Total number of packets to transmit is 10801
+[1683810258666796.5] Frame 34 sent in 6103825 ms
+[1683810258667020.2] Frame 34 response received in 267 ms
+[1683810258712808.5] Frame 35 loaded in 45410 ms
+[1683810258720582.2] Pickled Frame 35 which has length 11059341 B
+[1683810258720586.8] Frame 35 pickled in 7600 ms
+[1683810258720655.5] Total number of packets to transmit is 10801
+[1683810264900711.0] Frame 35 sent in 6179976 ms
+[1683810264900966.8] Frame 35 response received in 312 ms
+[1683810264943874.2] Frame 36 loaded in 42507 ms
+[1683810264951310.5] Pickled Frame 36 which has length 11059341 B
+[1683810264951316.8] Frame 36 pickled in 7241 ms
+[1683810264951393.5] Total number of packets to transmit is 10801
+[1683810270925605.8] Frame 36 sent in 5974142 ms
+[1683810270925842.0] Frame 36 response received in 284 ms
+[1683810270964590.5] Frame 37 loaded in 38321 ms
+[1683810270970680.2] Pickled Frame 37 which has length 11059341 B
+[1683810270970684.5] Frame 37 pickled in 5923 ms
+[1683810270970736.5] Total number of packets to transmit is 10801
+[1683810277162344.0] Frame 37 sent in 6191534 ms
+[1683810277162588.5] Frame 37 response received in 296 ms
+[1683810277207644.2] Frame 38 loaded in 44681 ms
+[1683810277217337.0] Pickled Frame 38 which has length 11059341 B
+[1683810277217341.5] Frame 38 pickled in 9529 ms
+[1683810277217403.2] Total number of packets to transmit is 10801
+[1683810283372321.2] Frame 38 sent in 6154765 ms
+[1683810283372573.8] Frame 38 response received in 385 ms
+[1683810283418375.2] Frame 39 loaded in 45399 ms
+[1683810283425975.5] Pickled Frame 39 which has length 11059341 B
+[1683810283425980.8] Frame 39 pickled in 7432 ms
+[1683810283426044.0] Total number of packets to transmit is 10801
+[1683810289727121.0] Frame 39 sent in 6301005 ms
+[1683810289727355.5] Frame 39 response received in 283 ms
+[1683810289749909.5] Frame 40 loaded in 22199 ms
+[1683810289756015.0] Pickled Frame 40 which has length 11059341 B
+[1683810289756019.0] Frame 40 pickled in 5956 ms
+[1683810289756071.8] Total number of packets to transmit is 10801
+[1683810296791640.8] Frame 40 sent in 7035490 ms
+[1683810296791900.2] Frame 40 response received in 316 ms
+[1683810296832055.0] Frame 41 loaded in 39618 ms
+[1683810296837819.8] Pickled Frame 41 which has length 11059341 B
+[1683810296837823.8] Frame 41 pickled in 5592 ms
+[1683810296837875.5] Total number of packets to transmit is 10801
+[1683810302707033.0] Frame 41 sent in 5869095 ms
+[1683810302707269.2] Frame 41 response received in 281 ms
+[1683810302755353.8] Frame 42 loaded in 47665 ms
+[1683810302762623.8] Pickled Frame 42 which has length 11059341 B
+[1683810302762631.5] Frame 42 pickled in 7095 ms
+[1683810302762696.8] Total number of packets to transmit is 10801
+[1683810308557323.8] Frame 42 sent in 5794559 ms
+[1683810308557555.2] Frame 42 response received in 277 ms
+[1683810308605571.2] Frame 43 loaded in 47633 ms
+[1683810308613987.5] Pickled Frame 43 which has length 11059341 B
+[1683810308613992.2] Frame 43 pickled in 8239 ms
+[1683810308614052.2] Total number of packets to transmit is 10801
+[1683810314794640.5] Frame 43 sent in 6180519 ms
+[1683810314794865.2] Frame 43 response received in 271 ms
+[1683810314837853.2] Frame 44 loaded in 42672 ms
+[1683810314843686.8] Pickled Frame 44 which has length 11059341 B
+[1683810314843691.5] Frame 44 pickled in 5691 ms
+[1683810314843740.0] Total number of packets to transmit is 10801
+[1683810320741651.0] Frame 44 sent in 5897848 ms
+[1683810320742207.2] Frame 44 response received in 595 ms
+[1683810320777104.0] Frame 45 loaded in 34438 ms
+[1683810320783548.2] Pickled Frame 45 which has length 11059341 B
+[1683810320783553.2] Frame 45 pickled in 6289 ms
+[1683810320783610.5] Total number of packets to transmit is 10801
+[1683810327245778.0] Frame 45 sent in 6462096 ms
+[1683810327246006.5] Frame 45 response received in 277 ms
+[1683810327301039.5] Frame 46 loaded in 54676 ms
+[1683810327309341.8] Pickled Frame 46 which has length 11059341 B
+[1683810327309348.0] Frame 46 pickled in 8114 ms
+[1683810327309432.0] Total number of packets to transmit is 10801
+[1683810333424844.0] Frame 46 sent in 6115335 ms
+[1683810333425124.8] Frame 46 response received in 335 ms
+[1683810333467396.5] Frame 47 loaded in 41885 ms
+[1683810333474892.8] Pickled Frame 47 which has length 11059341 B
+[1683810333474898.0] Frame 47 pickled in 7323 ms
+[1683810333475017.5] Total number of packets to transmit is 10801
+[1683810340199010.8] Frame 47 sent in 6723916 ms
+[1683810340199276.0] Frame 47 response received in 320 ms
+[1683810340242063.2] Frame 48 loaded in 42330 ms
+[1683810340248577.0] Pickled Frame 48 which has length 11059341 B
+[1683810340248581.8] Frame 48 pickled in 6325 ms
+[1683810340248699.8] Total number of packets to transmit is 10801
+[1683810346152873.8] Frame 48 sent in 5904105 ms
+[1683810346153102.5] Frame 48 response received in 278 ms
+[1683810346186186.5] Frame 49 loaded in 32716 ms
+[1683810346193739.5] Pickled Frame 49 which has length 11059341 B
+[1683810346193744.5] Frame 49 pickled in 7382 ms
+[1683810346193821.2] Total number of packets to transmit is 10801
+[1683810352425484.8] Frame 49 sent in 6231585 ms
+[1683810352425743.8] Frame 49 response received in 315 ms
+[1683810352474734.0] Frame 50 loaded in 48551 ms
+[1683810352481060.5] Pickled Frame 50 which has length 11059341 B
+[1683810352481065.5] Frame 50 pickled in 6174 ms
+[1683810352481139.5] Total number of packets to transmit is 10801
+[1683810358651124.5] Frame 50 sent in 6169921 ms
+[1683810358651343.8] Frame 50 response received in 260 ms
+[1683810358689682.2] Frame 51 loaded in 37905 ms
+[1683810358696567.0] Pickled Frame 51 which has length 11059341 B
+[1683810358696571.5] Frame 51 pickled in 6716 ms
+[1683810358696623.8] Total number of packets to transmit is 10801
+[1683810364874821.8] Frame 51 sent in 6178128 ms
+[1683810364875049.5] Frame 51 response received in 279 ms
+[1683810364921808.5] Frame 52 loaded in 46416 ms
+[1683810364930710.2] Pickled Frame 52 which has length 11059341 B
+[1683810364930716.8] Frame 52 pickled in 8664 ms
+[1683810364930784.0] Total number of packets to transmit is 10801
+[1683810371220646.0] Frame 52 sent in 6289787 ms
+[1683810371220876.0] Frame 52 response received in 282 ms
+[1683810371258832.5] Frame 53 loaded in 37600 ms
+[1683810371267406.5] Pickled Frame 53 which has length 11059341 B
+[1683810371267411.5] Frame 53 pickled in 8388 ms
+[1683810371267500.0] Total number of packets to transmit is 10801
+[1683810377522775.8] Frame 53 sent in 6255203 ms
+[1683810377523011.5] Frame 53 response received in 285 ms
+[1683810377556314.8] Frame 54 loaded in 32898 ms
+[1683810377564132.8] Pickled Frame 54 which has length 11059341 B
+[1683810377564138.8] Frame 54 pickled in 7652 ms
+[1683810377564203.0] Total number of packets to transmit is 10801
+[1683810383762245.8] Frame 54 sent in 6197963 ms
+[1683810383762516.2] Frame 54 response received in 327 ms
+[1683810383798136.0] Frame 55 loaded in 35221 ms
+[1683810383803364.2] Pickled Frame 55 which has length 11059341 B
+[1683810383803367.2] Frame 55 pickled in 5099 ms
+[1683810383803406.0] Total number of packets to transmit is 10801
+[1683810389846596.8] Frame 55 sent in 6043125 ms
+[1683810389846886.8] Frame 55 response received in 336 ms
+[1683810389886966.0] Frame 56 loaded in 39680 ms
+[1683810389895203.2] Pickled Frame 56 which has length 11059341 B
+[1683810389895209.8] Frame 56 pickled in 8026 ms
+[1683810389895272.2] Total number of packets to transmit is 10801
+[1683810398102733.8] Frame 56 sent in 8207387 ms
+[1683810398103175.2] Frame 56 response received in 490 ms
+[1683810398141610.8] Frame 57 loaded in 38092 ms
+[1683810398147660.8] Pickled Frame 57 which has length 11059341 B
+[1683810398147666.2] Frame 57 pickled in 5900 ms
+[1683810398147717.5] Total number of packets to transmit is 10801
+[1683810403022458.0] Frame 57 sent in 4874674 ms
+[1683810403022701.5] Frame 57 response received in 289 ms
+[1683810403061548.8] Frame 58 loaded in 38430 ms
+[1683810403071783.0] Pickled Frame 58 which has length 11059341 B
+[1683810403071788.0] Frame 58 pickled in 10075 ms
+[1683810403071838.8] Total number of packets to transmit is 10801
+[1683810411042856.8] Frame 58 sent in 7970948 ms
+[1683810411043086.5] Frame 58 response received in 281 ms
+[1683810411064601.2] Frame 59 loaded in 21117 ms
+[1683810411071704.5] Pickled Frame 59 which has length 11059341 B
+[1683810411071709.2] Frame 59 pickled in 6949 ms
+[1683810411071764.2] Total number of packets to transmit is 10801
+[1683810415699072.0] Frame 59 sent in 4627238 ms
+[1683810415699309.0] Frame 59 response received in 286 ms
+[1683810415758760.5] Frame 60 loaded in 58606 ms
+[1683810415773134.2] Pickled Frame 60 which has length 11059341 B
+[1683810415773143.2] Frame 60 pickled in 11251 ms
+[1683810415773217.0] Total number of packets to transmit is 10801
+[1683810421792697.8] Frame 60 sent in 6019390 ms
+[1683810421792977.0] Frame 60 response received in 349 ms
+[1683810421832993.5] Frame 61 loaded in 39682 ms
+[1683810421842103.5] Pickled Frame 61 which has length 11059341 B
+[1683810421842110.0] Frame 61 pickled in 8899 ms
+[1683810421842188.0] Total number of packets to transmit is 10801
+[1683810428324098.8] Frame 61 sent in 6481835 ms
+[1683810428324448.0] Frame 61 response received in 398 ms
+[1683810428365225.2] Frame 62 loaded in 40285 ms
+[1683810428373535.5] Pickled Frame 62 which has length 11059341 B
+[1683810428373541.8] Frame 62 pickled in 8115 ms
+[1683810428373619.8] Total number of packets to transmit is 10801
+[1683810433669084.5] Frame 62 sent in 5295388 ms
+[1683810433669330.8] Frame 62 response received in 299 ms
+[1683810433707997.0] Frame 63 loaded in 38208 ms
+[1683810433715069.8] Pickled Frame 63 which has length 11059341 B
+[1683810433715074.2] Frame 63 pickled in 6902 ms
+[1683810433715125.0] Total number of packets to transmit is 10801
+[1683810440301509.8] Frame 63 sent in 6586315 ms
+[1683810440301760.5] Frame 63 response received in 300 ms
+[1683810440339331.5] Frame 64 loaded in 37154 ms
+[1683810440345645.8] Pickled Frame 64 which has length 11059341 B
+[1683810440345650.8] Frame 64 pickled in 6159 ms
+[1683810440345705.8] Total number of packets to transmit is 10801
+[1683810447188554.0] Frame 64 sent in 6842765 ms
+[1683810447188838.8] Frame 64 response received in 348 ms
+[1683810447234048.2] Frame 65 loaded in 44782 ms
+[1683810447241795.5] Pickled Frame 65 which has length 11059341 B
+[1683810447241801.5] Frame 65 pickled in 7556 ms
+[1683810447241868.8] Total number of packets to transmit is 10801
+[1683810452770944.0] Frame 65 sent in 5529003 ms
+[1683810452771172.2] Frame 65 response received in 277 ms
+[1683810452823015.2] Frame 66 loaded in 51383 ms
+[1683810452828879.8] Pickled Frame 66 which has length 11059341 B
+[1683810452828883.8] Frame 66 pickled in 5715 ms
+[1683810452828929.5] Total number of packets to transmit is 10801
+[1683810458622418.8] Frame 66 sent in 5793406 ms
+[1683810458622708.2] Frame 66 response received in 353 ms
+[1683810458651388.0] Frame 67 loaded in 28306 ms
+[1683810458657605.8] Pickled Frame 67 which has length 11059341 B
+[1683810458657609.0] Frame 67 pickled in 6066 ms
+[1683810458657665.5] Total number of packets to transmit is 10801
+[1683810466075223.8] Frame 67 sent in 7417508 ms
+[1683810466075503.2] Frame 67 response received in 315 ms
+[1683810466104595.2] Frame 68 loaded in 28904 ms
+[1683810466110445.8] Pickled Frame 68 which has length 11059341 B
+[1683810466110449.8] Frame 68 pickled in 5701 ms
+[1683810466110501.0] Total number of packets to transmit is 10801
+[1683810471794813.8] Frame 68 sent in 5684246 ms
+[1683810471795079.2] Frame 68 response received in 311 ms
+[1683810471831172.5] Frame 69 loaded in 35732 ms
+[1683810471836838.8] Pickled Frame 69 which has length 11059341 B
+[1683810471836841.8] Frame 69 pickled in 5531 ms
+[1683810471836882.5] Total number of packets to transmit is 10801
+[1683810478004900.5] Frame 69 sent in 6167951 ms
+[1683810478005145.5] Frame 69 response received in 293 ms
+[1683810478065335.2] Frame 70 loaded in 59790 ms
+[1683810478074403.8] Pickled Frame 70 which has length 11059341 B
+[1683810478074411.0] Frame 70 pickled in 8858 ms
+[1683810478074483.0] Total number of packets to transmit is 10801
+[1683810483838317.5] Frame 70 sent in 5763766 ms
+[1683810483838748.5] Frame 70 response received in 475 ms
+[1683810483900210.0] Frame 71 loaded in 61059 ms
+[1683810483912171.5] Pickled Frame 71 which has length 11059341 B
+[1683810483912180.2] Frame 71 pickled in 11555 ms
+[1683810483912323.5] Total number of packets to transmit is 10801
+[1683810489763007.0] Frame 71 sent in 5850601 ms
+[1683810489763271.8] Frame 71 response received in 320 ms
+[1683810489808880.2] Frame 72 loaded in 45164 ms
+[1683810489816660.2] Pickled Frame 72 which has length 11059341 B
+[1683810489816665.8] Frame 72 pickled in 7562 ms
+[1683810489816756.5] Total number of packets to transmit is 10801
+[1683810496760632.0] Frame 72 sent in 6943744 ms
+[1683810496760815.2] Frame 72 response received in 228 ms
+[1683810496801421.0] Frame 73 loaded in 40347 ms
+[1683810496807351.0] Pickled Frame 73 which has length 11059341 B
+[1683810496807355.5] Frame 73 pickled in 5786 ms
+[1683810496807405.0] Total number of packets to transmit is 10801
+[1683810502767866.2] Frame 73 sent in 5960395 ms
+[1683810502768090.8] Frame 73 response received in 272 ms
+[1683810502801971.5] Frame 74 loaded in 33257 ms
+[1683810502809334.8] Pickled Frame 74 which has length 11059341 B
+[1683810502809339.5] Frame 74 pickled in 7194 ms
+[1683810502809401.5] Total number of packets to transmit is 10801
+[1683810508730369.5] Frame 74 sent in 5920893 ms
+[1683810508730607.8] Frame 74 response received in 291 ms
+[1683810508778944.2] Frame 75 loaded in 47920 ms
+[1683810508787903.0] Pickled Frame 75 which has length 11059341 B
+[1683810508787909.8] Frame 75 pickled in 8739 ms
+[1683810508787991.5] Total number of packets to transmit is 10801
+[1683810515032019.8] Frame 75 sent in 6243950 ms
+[1683810515032354.2] Frame 75 response received in 383 ms
+[1683810515071761.0] Frame 76 loaded in 38903 ms
+[1683810515079974.0] Pickled Frame 76 which has length 11059341 B
+[1683810515079981.5] Frame 76 pickled in 7969 ms
+[1683810515080072.5] Total number of packets to transmit is 10801
+[1683810522050373.8] Frame 76 sent in 6970221 ms
+[1683810522050635.2] Frame 76 response received in 313 ms
+[1683810522105976.0] Frame 77 loaded in 54890 ms
+[1683810522111679.5] Pickled Frame 77 which has length 11059341 B
+[1683810522111683.8] Frame 77 pickled in 5563 ms
+[1683810522111736.8] Total number of packets to transmit is 10801
+[1683810528229237.5] Frame 77 sent in 6117423 ms
+[1683810528229472.5] Frame 77 response received in 292 ms
+[1683810528274667.0] Frame 78 loaded in 44807 ms
+[1683810528282589.0] Pickled Frame 78 which has length 11059341 B
+[1683810528282594.8] Frame 78 pickled in 7730 ms
+[1683810528282665.0] Total number of packets to transmit is 10801
+[1683810534496463.8] Frame 78 sent in 6213505 ms
+[1683810534496800.2] Frame 78 response received in 603 ms
+[1683810534550666.5] Frame 79 loaded in 53448 ms
+[1683810534558850.0] Pickled Frame 79 which has length 11059341 B
+[1683810534558857.5] Frame 79 pickled in 8005 ms
+[1683810534558921.0] Total number of packets to transmit is 10801
+[1683810540761867.8] Frame 79 sent in 6202873 ms
+[1683810540762096.2] Frame 79 response received in 278 ms
+[1683810540800041.5] Frame 80 loaded in 37603 ms
+[1683810540808321.0] Pickled Frame 80 which has length 11059341 B
+[1683810540808328.8] Frame 80 pickled in 8038 ms
+[1683810540808401.5] Total number of packets to transmit is 10801
+[1683810546772128.5] Frame 80 sent in 5963659 ms
+[1683810546772428.8] Frame 80 response received in 344 ms
+[1683810546791416.2] Frame 81 loaded in 18629 ms
+[1683810546797872.8] Pickled Frame 81 which has length 11059341 B
+[1683810546797878.8] Frame 81 pickled in 6288 ms
+[1683810546797934.8] Total number of packets to transmit is 10801
+[1683810553313830.8] Frame 81 sent in 6515824 ms
+[1683810553314201.2] Frame 81 response received in 420 ms
+[1683810553374050.5] Frame 82 loaded in 59424 ms
+[1683810553385072.8] Pickled Frame 82 which has length 11059341 B
+[1683810553385081.8] Frame 82 pickled in 10733 ms
+[1683810553385161.0] Total number of packets to transmit is 10801
+[1683810559786038.5] Frame 82 sent in 6400803 ms
+[1683810559786325.2] Frame 82 response received in 336 ms
+[1683810559824033.8] Frame 83 loaded in 37243 ms
+[1683810559831278.5] Pickled Frame 83 which has length 11059341 B
+[1683810559831286.2] Frame 83 pickled in 7056 ms
+[1683810559831356.0] Total number of packets to transmit is 10801
+[1683810565904467.2] Frame 83 sent in 6072843 ms
+[1683810565904715.0] Frame 83 response received in 493 ms
+[1683810565938906.8] Frame 84 loaded in 33813 ms
+[1683810565945762.2] Pickled Frame 84 which has length 11059341 B
+[1683810565945767.2] Frame 84 pickled in 6700 ms
+[1683810565945822.5] Total number of packets to transmit is 10801
+[1683810572322734.5] Frame 84 sent in 6376843 ms
+[1683810572322961.8] Frame 84 response received in 276 ms
+[1683810572361223.5] Frame 85 loaded in 37862 ms
+[1683810572367828.8] Pickled Frame 85 which has length 11059341 B
+[1683810572367833.8] Frame 85 pickled in 6461 ms
+[1683810572367880.5] Total number of packets to transmit is 10801
+[1683810578408165.0] Frame 85 sent in 6040204 ms
+[1683810578408613.8] Frame 85 response received in 506 ms
+[1683810578443649.5] Frame 86 loaded in 34640 ms
+[1683810578450762.2] Pickled Frame 86 which has length 11059341 B
+[1683810578450765.0] Frame 86 pickled in 6971 ms
+[1683810578450814.2] Total number of packets to transmit is 10801
+[1683810585945993.2] Frame 86 sent in 7495107 ms
+[1683810585946247.5] Frame 86 response received in 307 ms
+[1683810585996342.0] Frame 87 loaded in 49679 ms
+[1683810586003658.8] Pickled Frame 87 which has length 11059341 B
+[1683810586003664.0] Frame 87 pickled in 7137 ms
+[1683810586003725.2] Total number of packets to transmit is 10801
+[1683810591363395.0] Frame 87 sent in 5359605 ms
+[1683810591363614.2] Frame 87 response received in 262 ms
+[1683810591412616.2] Frame 88 loaded in 48607 ms
+[1683810591418721.2] Pickled Frame 88 which has length 11059341 B
+[1683810591418724.2] Frame 88 pickled in 5943 ms
+[1683810591418769.8] Total number of packets to transmit is 10801
+[1683810597973376.0] Frame 88 sent in 6554544 ms
+[1683810597973581.8] Frame 88 response received in 252 ms
+[1683810597996288.5] Frame 89 loaded in 22329 ms
+[1683810598002674.8] Pickled Frame 89 which has length 11059341 B
+[1683810598002678.0] Frame 89 pickled in 6229 ms
+[1683810598002734.2] Total number of packets to transmit is 10801
+[1683810603870158.8] Frame 89 sent in 5867357 ms
+[1683810603870594.2] Frame 89 response received in 480 ms
+[1683810603927191.5] Frame 90 loaded in 56197 ms
+[1683810603936396.5] Pickled Frame 90 which has length 11059341 B
+[1683810603936405.0] Frame 90 pickled in 8855 ms
+[1683810603936481.5] Total number of packets to transmit is 10801
