@@ -121,6 +121,7 @@ def client_udp(video_file, results_file_name):
         pickle_end = int(time.time_ns()/1000)
 
         pickle_len = len(data)
+        pickle_len_bytes = pickle_len.to_bytes(4, 'little')
         print(f'[{time.time_ns()/1000}] Pickled Frame {count} which has length {pickle_len} B')
         results_file.write(f'[{time.time_ns()/1000}] Pickled Frame {count} which has length {pickle_len} B\n')
         results_file.write(f'[{time.time_ns()/1000}] Frame {count} pickled in {pickle_end-pickle_start} ms\n')
@@ -148,10 +149,10 @@ def client_udp(video_file, results_file_name):
             
             curr_packet_bytes = curr_packet.to_bytes(4, 'little')
 
-            payload_size = packet_size + 12
+            payload_size = packet_size + 16
             # data_to_send = bytearray(payload_size)
 
-            data_to_send = curr_frame_bytes + curr_packet_bytes + total_pakcets_bytes + img_part
+            data_to_send = curr_frame_bytes + curr_packet_bytes + total_pakcets_bytes + pickle_len_bytes + img_part
             sock.sendto(data_to_send, server_addr)
             packet_end = int(time.time_ns()/1000)
             results_file.write(f'[{time.time_ns()/1000}] Frame {count} sent packet {curr_packet} of {total_packets} in {packet_end-packet_start} ms\n')
