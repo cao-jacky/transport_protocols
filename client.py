@@ -146,6 +146,7 @@ def client_udp(video_file, results_file_name):
         while curr_packet < total_packets:
             packet_start = int(time.time_ns()/1000)
             img_part = data[bytes_count:bytes_count+packet_size]
+            print(img_part)
             
             curr_packet_bytes = curr_packet.to_bytes(4, 'little')
 
