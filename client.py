@@ -56,7 +56,7 @@ def client_tcp(video_file, results_file_name):
         results_file.write(f'[{time.time_ns()/1000}] Pickled Frame {count} which has length {pickle_len} B\n')
         results_file.write(f'[{time.time_ns()/1000}] Frame {count} pickled in {pickle_end-pickle_start} ms\n')
 
-        total_packets = int(np.ceil(pickle_len / 16384))
+        total_packets = int(np.ceil(pickle_len / 1024))
         print(f'[{time.time_ns()/1000}] Total number of packets to transmit is {total_packets}')
         results_file.write(f'[{time.time_ns()/1000}] Total number of packets to transmit is {total_packets}\n')
 
