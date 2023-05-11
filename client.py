@@ -95,9 +95,6 @@ def client_udp(video_file):
     host = "10.38.151.146"
     port = 5001
 
-    client_socket = socket.socket()
-    client_socket.connect((host, port)) 
-
     print(f'[{time.time_ns()/1000}] Loading video')
     input_video = cv2.VideoCapture(f'input_videos/{video_file}')
     print(f'[{time.time_ns()/1000}] Loaded video')
