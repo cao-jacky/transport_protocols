@@ -149,7 +149,7 @@ def client_udp(video_file, results_file_name):
             # data_to_send = bytearray(payload_size)
 
             data_to_send = curr_packet_bytes + total_pakcets_bytes + img_part
-            sock.sendto(data_to_send)
+            sock.sendto(data_to_send, server_addr)
             packet_end = int(time.time_ns()/1000)
             results_file.write(f'[{time.time_ns()/1000}] Frame {count} sent packet {curr_packet} of {total_packets} in {packet_end-packet_start} ms\n')
             
