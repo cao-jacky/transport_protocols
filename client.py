@@ -7,6 +7,8 @@ import numpy as np
 
 import time
 
+import sys
+
 resolutions_dict = {
     '4k': '4k_60fps.webm',
     '2k': '1440p_60fps.webm',
