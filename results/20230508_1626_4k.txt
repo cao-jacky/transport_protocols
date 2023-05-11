@@ -1,0 +1,178 @@
+Frame 0 loaded in 168186 ms
+Pickled Frame 0 which has length 24883341 B
+Frame 0 pickled in 9873 ms
+Total number of packets to transmit is 1519
+Frame 0 sent in 19332387 ms
+Frame 0 response received in 8646726 ms
+Frame 1 loaded in 64522 ms
+Pickled Frame 1 which has length 24883341 B
+Frame 1 pickled in 11419 ms
+Total number of packets to transmit is 1519
+Frame 1 sent in 17592569 ms
+Frame 1 response received in 4238481 ms
+Frame 2 loaded in 65284 ms
+Pickled Frame 2 which has length 24883341 B
+Frame 2 pickled in 13687 ms
+Total number of packets to transmit is 1519
+Frame 2 sent in 12667638 ms
+Frame 2 response received in 4428496 ms
+Frame 3 loaded in 59537 ms
+Pickled Frame 3 which has length 24883341 B
+Frame 3 pickled in 12868 ms
+Total number of packets to transmit is 1519
+Frame 3 sent in 17678613 ms
+Frame 3 response received in 4572377 ms
+Frame 4 loaded in 69016 ms
+Pickled Frame 4 which has length 24883341 B
+Frame 4 pickled in 12365 ms
+Total number of packets to transmit is 1519
+Frame 4 sent in 18203939 ms
+Frame 4 response received in 3831289 ms
+Frame 5 loaded in 64095 ms
+Pickled Frame 5 which has length 24883341 B
+Frame 5 pickled in 12052 ms
+Total number of packets to transmit is 1519
+Frame 5 sent in 13849413 ms
+Frame 5 response received in 5330155 ms
+Frame 6 loaded in 83635 ms
+Pickled Frame 6 which has length 24883341 B
+Frame 6 pickled in 15370 ms
+Total number of packets to transmit is 1519
+Frame 6 sent in 15514232 ms
+Frame 6 response received in 5893804 ms
+Frame 7 loaded in 62668 ms
+Pickled Frame 7 which has length 24883341 B
+Frame 7 pickled in 11048 ms
+Total number of packets to transmit is 1519
+Frame 7 sent in 16942417 ms
+Frame 7 response received in 7928916 ms
+Frame 8 loaded in 90863 ms
+Pickled Frame 8 which has length 24883341 B
+Frame 8 pickled in 14201 ms
+Total number of packets to transmit is 1519
+Frame 8 sent in 15458581 ms
+Frame 8 response received in 3507994 ms
+Frame 9 loaded in 91386 ms
+Pickled Frame 9 which has length 24883341 B
+Frame 9 pickled in 15240 ms
+Total number of packets to transmit is 1519
+Frame 9 sent in 25769806 ms
+Frame 9 response received in 4709769 ms
+Frame 10 loaded in 94936 ms
+Pickled Frame 10 which has length 24883341 B
+Frame 10 pickled in 16145 ms
+Total number of packets to transmit is 1519
+Frame 10 sent in 18398731 ms
+Frame 10 response received in 168 ms
+Frame 11 loaded in 62919 ms
+Pickled Frame 11 which has length 24883341 B
+Frame 11 pickled in 13221 ms
+Total number of packets to transmit is 1519
+Frame 11 sent in 16803984 ms
+Frame 11 response received in 446 ms
+Frame 12 loaded in 65220 ms
+Pickled Frame 12 which has length 24883341 B
+Frame 12 pickled in 12348 ms
+Total number of packets to transmit is 1519
+Frame 12 sent in 12902876 ms
+Frame 12 response received in 289 ms
+Frame 13 loaded in 60846 ms
+Pickled Frame 13 which has length 24883341 B
+Frame 13 pickled in 11518 ms
+Total number of packets to transmit is 1519
+Frame 13 sent in 17906184 ms
+Frame 13 response received in 158 ms
+Frame 14 loaded in 64050 ms
+Pickled Frame 14 which has length 24883341 B
+Frame 14 pickled in 13140 ms
+Total number of packets to transmit is 1519
+Frame 14 sent in 9403645 ms
+Frame 14 response received in 180 ms
+Frame 15 loaded in 67872 ms
+Pickled Frame 15 which has length 24883341 B
+Frame 15 pickled in 12353 ms
+Total number of packets to transmit is 1519
+Frame 15 sent in 9327244 ms
+Frame 15 response received in 138 ms
+Frame 16 loaded in 54213 ms
+Pickled Frame 16 which has length 24883341 B
+Frame 16 pickled in 11144 ms
+Total number of packets to transmit is 1519
+Frame 16 sent in 7456542 ms
+Frame 16 response received in 220 ms
+Frame 17 loaded in 70671 ms
+Pickled Frame 17 which has length 24883341 B
+Frame 17 pickled in 15520 ms
+Total number of packets to transmit is 1519
+Frame 17 sent in 8377237 ms
+Frame 17 response received in 171 ms
+Frame 18 loaded in 66105 ms
+Pickled Frame 18 which has length 24883341 B
+Frame 18 pickled in 12829 ms
+Total number of packets to transmit is 1519
+Frame 18 sent in 16225729 ms
+Frame 18 response received in 130 ms
+Frame 19 loaded in 43150 ms
+Pickled Frame 19 which has length 24883341 B
+Frame 19 pickled in 12282 ms
+Total number of packets to transmit is 1519
+Frame 19 sent in 9611490 ms
+Frame 19 response received in 152 ms
+Frame 20 loaded in 62287 ms
+Pickled Frame 20 which has length 24883341 B
+Frame 20 pickled in 13113 ms
+Total number of packets to transmit is 1519
+Frame 20 sent in 8979909 ms
+Frame 20 response received in 141 ms
+Frame 21 loaded in 50850 ms
+Pickled Frame 21 which has length 24883341 B
+Frame 21 pickled in 12914 ms
+Total number of packets to transmit is 1519
+Frame 21 sent in 20023503 ms
+Frame 21 response received in 221 ms
+Frame 22 loaded in 69600 ms
+Pickled Frame 22 which has length 24883341 B
+Frame 22 pickled in 13510 ms
+Total number of packets to transmit is 1519
+Frame 22 sent in 26698812 ms
+Frame 22 response received in 207 ms
+Frame 23 loaded in 67075 ms
+Pickled Frame 23 which has length 24883341 B
+Frame 23 pickled in 12706 ms
+Total number of packets to transmit is 1519
+Frame 23 sent in 30484325 ms
+Frame 23 response received in 162 ms
+Frame 24 loaded in 64641 ms
+Pickled Frame 24 which has length 24883341 B
+Frame 24 pickled in 12318 ms
+Total number of packets to transmit is 1519
+Frame 24 sent in 40946984 ms
+Frame 24 response received in 361 ms
+Frame 25 loaded in 68772 ms
+Pickled Frame 25 which has length 24883341 B
+Frame 25 pickled in 14067 ms
+Total number of packets to transmit is 1519
+Frame 25 sent in 27370715 ms
+Frame 25 response received in 408 ms
+Frame 26 loaded in 69488 ms
+Pickled Frame 26 which has length 24883341 B
+Frame 26 pickled in 14232 ms
+Total number of packets to transmit is 1519
+Frame 26 sent in 21694506 ms
+Frame 26 response received in 237 ms
+Frame 27 loaded in 63580 ms
+Pickled Frame 27 which has length 24883341 B
+Frame 27 pickled in 12628 ms
+Total number of packets to transmit is 1519
+Frame 27 sent in 37106162 ms
+Frame 27 response received in 315 ms
+Frame 28 loaded in 63570 ms
+Pickled Frame 28 which has length 24883341 B
+Frame 28 pickled in 12790 ms
+Total number of packets to transmit is 1519
+Frame 28 sent in 28415005 ms
+Frame 28 response received in 182 ms
+Frame 29 loaded in 54008 ms
+Pickled Frame 29 which has length 24883341 B
+Frame 29 pickled in 13620 ms
+Total number of packets to transmit is 1519
